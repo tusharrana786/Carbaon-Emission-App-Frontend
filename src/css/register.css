@@ -1,0 +1,111 @@
+.activetab{
+    color: #1F8505;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-right: 3%; 
+}
+
+.disabledtab{
+    color: #AAAAAA;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-right: 3%; 
+}
+
+.divider{
+    color: #AAAAAA;
+    font-weight: 900;
+    font-size: 9px;
+    line-height: 21.6px;
+    margin-right: 3%;
+}
+
+.heading{
+    font-weight: 900;
+    color:#3B3D3B;
+    line-height: 44px;
+    margin-bottom: 0;
+}
+
+.description{
+    font-weight: 500;
+    font-size: 16px;
+    color:#3B3D3B;
+}
+
+label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #848489;
+    margin-bottom: 1%;
+}
+
+input.org{
+    height: 51px;
+    border: 1px solid #E6E6E6;
+    border-radius: 9px;
+    padding-left: 10px;
+    gap: 10px;
+    margin-bottom: 0.5%;
+    color: #3B3D3B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+input.org::placeholder{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #848489;
+}
+
+input#opt{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.bottomicon{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #848489;
+    margin-bottom: 1%;
+}
+
+.registerbutton{
+    background-color: #1F8505;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    width: 83px;
+    height: 51px;
+    padding: 16px 24px;
+    color: #FFFFFF;
+    border: 0 solid white;
+    border-radius: 8px;
+}
+
+.createbutton{
+    background-color: #1F8505;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    width: 96px;
+    height: 51px;
+    padding: auto;
+    justify-content: center;
+    color: #FFFFFF;
+    border: 0 solid white;
+    border-radius: 8px;
+    margin-top: 3%;
+}
+
+.timezonelabel{
+    margin-top: 1.5%;
+}
