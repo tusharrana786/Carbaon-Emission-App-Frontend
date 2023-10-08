@@ -8,6 +8,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function ControlledOpenSelect({time, setTime}) {
     const [open, setOpen] = useState(false);
@@ -51,7 +52,15 @@ function ControlledOpenSelect({time, setTime}) {
   }
 
 export default function CreateProject(){
+    const navigate = useNavigate();
+
     const [time, setTime] = useState("India/Kolkata (GMT 5:30)");
+    const [project, setProject] = useState("")
+    function handleChange(event, setProject){
+        setProject((project)=>{
+            return project===""? "⚡ "+event.target.value:event.target.value;
+        })
+    }
     return(
         <>
         <RegisterTitle 
@@ -60,10 +69,10 @@ export default function CreateProject(){
         />
         <Box display="flex" flexDirection="column" width="900px" height="auto" ml="auto" mr="auto" mt="10px">
                 <label for="org">Project Name <i class="fa-solid fa-circle-info"></i></label>
-                <input id="org" placeholder="e.g. ⚡ Bengaluru Electricity" className="org"></input>
+                <input id="org" placeholder="e.g. ⚡ Bengaluru Electricity" className="org" value={project} onChange={(e)=>{handleChange(e, setProject)}}></input>
                 <label className="timezonelabel">Select Your Timezone</label>
                 <ControlledOpenSelect time={time} setTime={setTime}/>
-                <button className="createbutton">Create</button>
+                <button className="createbutton" onClick={()=>{navigate("/registersuccess")}}>Create</button>
         </Box>    
         </>
     )

@@ -33,6 +33,7 @@
     font-weight: 500;
     font-size: 16px;
     color:#3B3D3B;
+    line-height: 19.2px;
 }
 
 label{
@@ -108,4 +109,34 @@ input#opt{
 
 .timezonelabel{
     margin-top: 1.5%;
+}
+
+iframe{
+    border: 0px solid #fff;
+    background: transparent;
+    position: absolute;
+}
+
+.welcometextbold{
+    font-weight: 700;
+}
+
+.welcometext{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.getstartedbtn{
+    background-color: #1F8505;
+    width: 167px;
+    height: 51px;
+    padding: 16px , 24px, 16px, 24px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 0 solid white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-top: 2%;    
 }
