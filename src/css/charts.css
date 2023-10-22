@@ -1,0 +1,299 @@
+.category{
+    width: 130px;
+}
+
+.categorytxt{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #626266;
+}
+
+.categoryheading{
+    color: #626266;
+
+/* Text sm/Semi Bold */
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 16.8px */
+    margin-bottom: 0.5%;
+}
+
+.number{
+    margin-left: 1.5%;
+}
+
+.stackedcontainer{
+    height: 400px;
+}
+
+.sidebar{
+    display: flex;
+    width: 200px;
+    height: 2763px;
+    padding: 28px 16px 28px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-right: 1px solid var(--strokes-grey-1, #E6E6E6);
+    background: var(--surface-white-0, #FFF);
+}
+
+.discoverlogo{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    border-radius: 4px;
+    background: #E9E9E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addlogo{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    border-radius: 4px;
+    background: #1F8505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebartext{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #626266;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.ml-2{
+    position: relative;
+    left: 12%;
+}
+
+.upperbox{
+    display: flex;
+    width: 1160px;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid var(--strokes-grey-1, #E6E6E6);
+    background: var(--surface-white-0, #FFF);
+    box-shadow: 0px 2px 12px 0px rgba(82, 83, 84, 0.12);
+    gap: 1%;
+}
+
+.upperbox img{
+    position: relative;
+    bottom: 0.65vh;
+}
+
+.upperpara{
+    color: var(--text-grey-1, #3B3D3B);
+
+/* Text md/Semi Bold */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    margin: 0;
+}
+
+.lowerpara{
+    color: var(--text-grey-2, #626266);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    margin: 0;
+}
+
+.rightbtn{
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    border: 2px solid var(--strokes-grey-1, #E6E6E6);
+    background: #FFF;
+    color: #2A2A2F;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+}
+
+.leftbtn{
+    display: flex;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    border: 0 solid #1F8505;
+    background: var(--accent-primary-colour, #1F8505);
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    margin-left: auto;
+}
+
+.emissioncard{
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 12px;
+    border: 0.991px solid #E9E9E9;
+    background: #FFF;
+    width: auto;
+}
+
+.emissioncardtext{
+    color: var(--text-grey-1, #3B3D3B);
+    margin: 0 0 1% 0;
+/* Text md/Semi Bold */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+}
+
+.emissioncardsecond{
+    color: var(--text-grey-2, #626266);
+    margin: 0 0 1% 0;
+/* Text sm/Medium */
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 16.8px */
+}
+
+.inctext{
+    color: #CF343D;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    margin: 0 0 1% 0;
+}
+
+.ml-auto{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.down{
+    position: relative;
+    top: 0.6vh;
+}
+.rowdiv{
+    display: flex;
+    width: 360px;
+    padding: 3% 3% 2% 3%;
+}
+
+.bottomdiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.991px solid #E9E9E9;
+}
+
+.bottomdiv h1{
+    margin: 0;
+    color: #2A2A2F;
+
+/* Display xl/Bold */
+    font-family: Satoshi;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 72px */
+    letter-spacing: -1.2px;
+}
+
+.bottomdiv p{
+    margin: 0;
+    color: #626266;
+
+    /* Text md/Medium */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+}
+
+.up{
+    color: var(--accent-green, #379E4E);
+
+    /* Text md/Semi Bold */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+}
+
+.test{
+    margin-left: 5px;
+}
+
+hr{
+    background-color: red;
+    width: 100%;
+}
+
+.greengrid{
+    border: 1px solid var(--accent-green, #379E4E);
+}
+
+.greengridtitle{
+    color: #272927;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+    margin: 0;
+    position: relative;
+    left: 4%;
+    top: 3%;
+}
+
+.greengridsub{
+    color: #272927;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0;
+    position: relative;
+    left: 4%;
+    top: 3%;
+}

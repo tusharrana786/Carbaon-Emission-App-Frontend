@@ -140,3 +140,188 @@ iframe{
     line-height: 19.2px;
     margin-top: 2%;    
 }
+
+.implementheading{
+    color: var(--text-grey-1, #3B3D3B);
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+    margin: 0;
+}
+
+.impopttext{
+    color: #2A2A2F;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; /* 160% */
+    margin-bottom: 1%;
+}
+
+.impopt{
+    color: var(--text-grey-1, #3B3D3B);
+
+/* Text xl/Semi Bold */
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    margin-bottom: 1.5%;
+}
+
+.implink{
+    display: inline-flex;
+    padding: 0px 6px;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px;
+    background: #E9E9E9;
+}
+
+.copylogo{
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    position: relative;
+    top: 0.8vh;
+}
+
+.impopttext a{
+    color: #626266;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; /* 149.333% */
+    letter-spacing: -0.1px;
+    text-decoration-line: underline;
+    position: relative;
+    left: 3%;
+}
+
+.arrowicon{
+    display: inline-flex;
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5%;
+    top: 1.5%
+}
+
+.optioncards{
+    display: flex;
+    padding: 14px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid var(--strokes-grey-1, #E6E6E6);
+    background: var(--surface-white-0, #FFF);
+    box-shadow: 0px 2px 2px 0px rgba(42, 42, 47, 0.05);
+    width: 153px;
+    height: 40px;
+}
+
+.optionstext{
+    color: var(--text-grey-1, #3B3D3B);
+
+/* Text overline/Small */
+    font-family: Satoshi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 14.4px */
+    letter-spacing: 1.44px;
+    text-transform: uppercase;    
+}
+
+.optcontainer{
+    width: 40px;
+    height: 40px;
+    background-color: #E9E9E9;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optcontainer img{
+    width: 32.5px;
+    height: 26px;
+    flex-shrink: 0;
+}
+
+.optioncardstitle{
+    color: #2A2A2F;
+
+/* Text sm/Semi Bold */
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 16.8px */
+    margin: 0;
+}
+
+.optioncardsoptional{
+    color: var(--text-grey-1, #3B3D3B);
+    font-family: Satoshi;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 12px */
+    margin: 0;
+    position: absolute;
+    top: 58%;
+    display: flex;
+    padding: 2px 4px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: rgba(66, 244, 137, 0.50); 
+}
+
+.implemdata{
+    position: relative;
+    right: 25%;
+    height: 40px;
+    width: 90px;
+}
+
+.centered{
+    display: flex;
+    align-items: center;
+}
+
+.optiondiv{
+    margin-bottom: 1%;
+}
+
+.implemimg{
+    position: fixed;
+}
+
+.intoptionstxt{
+    color: var(--accent-primary-colour, #1F8505);
+
+/* Text sm/Semi Bold */
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 16.8px */
+    margin-bottom: 2%;
+}
+
+.intoptionstxt img{
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
